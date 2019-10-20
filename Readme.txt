@@ -1,7 +1,7 @@
 1. Use the linux exe "Extract_Whole_brain_signal" to extract whole brain signals.
 2. Extract_whole_brain_sig.sh is an example script for signal extraction.
 3. See the comments for parameters setting in main.m .
-4. After running use linux exe "Map_reference2brain“ to map common networks to std brain.
+4. After running use linux exe "Map_reference2brainâ€œ to map common networks to std brain.
 5. Map_Common_networks.sh is an example script for brain mapping.
 6. Spams is need for running the code. http://spams-devel.gforge.inria.fr/
 7. FSL is needed for visualization.
@@ -9,3 +9,7 @@
 9. After running common networks will be reconstructed from Common_A_T.txt.
 10. Individual dictionary could be found found as XXXXX.D.txt and the connectivity matrix could be found as XXXXX.D.Corr.txt.
 11. You could do any statistics or cross group comparison to the connectivities in XXXXX.D.Corr.txt.
+
+If you find the code useful, please cite the following paper:
+
+Lindbergh, C.A., Zhao, Y., Lv, J., Mewborn, C.M., Puente, A.N., Terry, D.P., Renzi-Hammond, L.M., Hammond, B.R., Liu, T. and Miller, L.S., 2019. Intelligence moderates the relationship between age and inter-connectivity of resting state networks in older adults. Neurobiology of aging, 78, pp.121-129.
